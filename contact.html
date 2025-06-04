@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessy</title>
+    <link rel="website icon" href="images/chessy.jpg">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/chessy.jpg" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="basket.html"><i class="bi bi-cart3 text-light"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignIn.html">Signin/login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shopping.html">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Articles.html">Articles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container pos">
+        <div class="row">
+            <div class="col-6 border rounded-4">
+                <div class="mt-4">
+                    <div>
+                        <h4><i class="bi bi-clock icon"></i>&nbsp; Opening Hours:</h4>
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; Mon-Sat:</strong>
+                        <span>&nbsp; &nbsp;11am-23pm</span>
+                        <br />
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; Sunday:</strong>
+                        <span>&nbsp; &nbsp; Closed</span>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4><i class="bi bi-telephone icon"></i>&nbsp; Contact:</h4>
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; Phone:</strong>
+                        <span>&nbsp; &nbsp;+1 5589 55488 55</span>
+                        <br />
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; Email:</strong>
+                        <span>&nbsp; &nbsp; info@gmail.com</span>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4><i class="bi bi-geo-alt icon"></i>&nbsp; Location:</h4>
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; Address:</strong>
+                        <span><br>&nbsp; &nbsp; &nbsp; &nbsp; New York <br>&nbsp; &nbsp; &nbsp; &nbsp; Adam Street
+                        </span>
+                        <br />
+                        <strong>&nbsp; &nbsp; &nbsp; &nbsp; PostCode:</strong>
+                        <span>&nbsp; &nbsp; IG2 3NN</span>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mt-4">
+                    <form>
+                        <label for="name" class="fw-bold">Name:</label>
+                        <input type="text" id="name" placeholder="Name" title="Enter your name">
+                        <label for="surname" class="fw-bold">Surname:</label>
+                        <input type="text" id="surname" placeholder="Surname" title="Enter your surname">
+                        <br><br>
+                        <label for="email" class="fw-bold">Email:</label>
+                        <input type="text" id="email" placeholder="Email" title="Enter your email">
+                        <br>
+                        <label for="comment" class="fw-bold">Comments:</label>
+                        <br>
+                        <textarea id="comment" placeholder="Your comment here ..." rows="10" cols="57"></textarea>
+                        <br>
+                        <p id="p1">0</p>
+                        <input type="submit" value="Send Comment" class="btn btn-success">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light mt-5 container-fluid">
+        <div class="row ">
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-geo-alt icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street</p>
+                    <p>New York</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-telephone icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Contact</h4>
+                    <strong>Phone:</strong>
+                    <span>+1 5589 55488 55</span>
+                    <br />
+                    <strong>Email:</strong>
+                    <span>info@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-clock icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Opening Hours</h4>
+                    <strong>Mon-Sat:</strong>
+                    <span>11am-23pm</span>
+                    <br />
+                    <strong>Sunday:</strong>
+                    <span>Closed</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <div>
+                    <h4>Follow Us:</h4>
+                    <div class="social-links d-flex">
+                        <a href="#">
+                            <h3><i class="bi bi-telegram"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-instagram text-danger"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-whatsapp text-success"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-twitter"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-linkedin"></i></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="container text-center mt-2">
+                <p>&copyCopyright <strong>Chessy</strong> All rights reserved</p>
+                <p>Designed by <span class="text-danger"><b>Neda Jamali</b></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <script>
+        console.log(jQuery)
+        $(function () {
+            $("input").tooltip();
+        });
+        $("form").submit(function (e) {
+            e.preventDefault();
+            let names = $("#name").val();
+            let surnames = $("#surname").val();
+            let emails = $("#email").val();
+            let comments1 = $("#comment").val();
+            if(names==""||surnames==""||emails==""||comments1==""){
+                alert("Fields cannot be empty");
+            }else{
+                
+            alert("Your comment has sent:)");
+            var settings = {
+                "url": "http://localhost:3000/comments",
+                "method": "POST",
+                "timeout": 0,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "data": JSON.stringify({
+
+                    name: names,
+                    surname: surnames,
+                    email: emails,
+                    comment: comments1,
+                }),
+            };
+            }
+            // alert("Your comment has sent:)");
+            // var settings = {
+            //     "url": "http://localhost:3000/comments",
+            //     "method": "POST",
+            
+            //     "timeout": 0,
+            //     "headers": {
+            //         "Content-Type": "application/json"
+            //     },
+            //     "data": JSON.stringify({
+            //         name: names,
+            //         surname: surnames,
+            //         email: emails,
+            //         comment: comments1,
+            //     }),
+            // };
+
+            $.ajax(settings).done(function (response) {
+                console.log(response);
+            });
+        });
+    </script>
+</body>
+
+</html>

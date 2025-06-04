@@ -1,0 +1,50 @@
+div.signin {
+    padding-top: 100px;
+}
+
+div.sign {
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 12px;
+    margin: auto;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border-radius: 15px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    font-weight: bold;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width:100%;
+}
+
+.input-wrapper input {
+    padding-right: 20px;
+}
+
+.input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+button.btn-danger{
+    width:100%;
+    border-radius: 20px;
+}

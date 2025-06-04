@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessy</title>
+    <link rel="website icon" href="images/chessy.jpg">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/chessy.jpg" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="basket.html"><i class="bi bi-cart3 text-light"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignIn.html">Signin/login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shopping.html">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Articles.html">Articles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="pos text-center mb-5">Your Shoppings</h1>
+        <table class="table table-bordered text-center">
+            <thead>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th></th>
+            </thead>
+            <tbody id="tbodi">
+
+            </tbody>
+        </table>
+        <div class="tp text-center mt-4 mb-3">
+            <h3 class="text-center">Select a time to deliver:</h3>
+            <label for="timepicker">Time:</label>
+            <input type="text" id="timepicker" placeholder="Select Time" class="text-center">
+            <label for="datepicker">Date:</label>
+            <input type="text" id="datepicker" placeholder="Pick a date" class="text-center">
+        </div>
+        <a href="#" class="btn btn-success text-center d-grid mb-5">Deliver</a>
+        <div class="">
+            <h2 class="text-center fw-bold">Benefits of shopping from us</h2>
+            <div class="card bg-primary rounded-3 mt-5">
+                <p class="fst-italic text-center fw-bold">24 hour delivery</p>
+                <p class="fst-italic text-center fw-bold">Cheap prices</p>
+                <p class="fst-italic text-center fw-bold">Good quality</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light mt-5 container-fluid">
+        <div class="row ">
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-geo-alt icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street</p>
+                    <p>New York</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-telephone icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Contact</h4>
+                    <strong>Phone:</strong>
+                    <span>+1 5589 55488 55</span>
+                    <br />
+                    <strong>Email:</strong>
+                    <span>info@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-clock icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Opening Hours</h4>
+                    <strong>Mon-Sat:</strong>
+                    <span>11am-23pm</span>
+                    <br />
+                    <strong>Sunday:</strong>
+                    <span>Closed</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <div>
+                    <h4>Follow Us:</h4>
+                    <div class="social-links d-flex">
+                        <a href="#">
+                            <h3><i class="bi bi-telegram"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-instagram text-danger"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-whatsapp text-success"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-twitter"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-linkedin"></i></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="container text-center mt-2">
+                <p>&copyCopyright <strong>Chessy</strong> All rights reserved</p>
+                <p>Designed by <span class="text-danger"><b>Neda Jamali</b></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <!-- jQuery Timepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <!-- jQuery DatePicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        var price = [];
+        var product = [];
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regexS = "[\\?&]" + name + "=([^&#]*)";
+            var regex = new RegExp(regexS);
+            var results = regex.exec(window.location.href);
+            if (results == null)
+                return "";
+            else
+                return decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        let id = getParameterByName("id");
+
+        var settings = {
+            "url": `http://127.0.0.1:3000/chesspiece/${id}`,
+            "method": "GET",
+            "timeout": 0,
+        };
+
+        $.ajax(settings).done(function (response) {
+            initProducts();
+            price.push(response.price);
+            product.push(response.model);
+            $("#tbodi").empty();
+            for (var i in price, product) {
+                $("#tbodi").append(`<tr><td>${Number(i) + 1}</td><td>${product[i]}</td><td>${price[i]}</td><td><button class="btn btn-danger" onclick="delRow(this)">Delete</button></td></tr>`)
+            }
+            storeProducts();
+        });
+        function storeProducts() {
+            var jnproduct = JSON.stringify(price);
+            var jpproduct = JSON.stringify(product);
+            localStorage.setItem("productprice", jnproduct);
+            localStorage.setItem("productname", jpproduct);
+        }
+        function initProducts() {
+            product = JSON.parse(localStorage.getItem("productname"));
+            price = JSON.parse(localStorage.getItem("productprice"));
+            if (price == null)
+                price = []
+            if (product == null)
+                product = []
+
+        }
+        function delRow(button) {
+            var row = button.closest("tr");
+            row.remove();
+            localStorage.removeItem("productname")
+            localStorage.removeItem("productprice")
+        }
+        // Timepicker
+        $(document).ready(function () {
+            $('#timepicker').timepicker({
+                timeFormat: 'HH:mm',
+                interval: 30,
+                minTime: '08:00',
+                maxTime: '18:00',
+                defaultTime: '08:00',
+                startTime: '08:00',
+                dynamic: false,
+                dropdown: true,
+                scrollbar: true
+            });
+        });
+        // DatePicker
+        $(document).ready(function () {
+            $("#datepicker").datepicker({
+                dateFormat: "yy-mm-dd",
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+    </script>
+</body>
+
+</html>

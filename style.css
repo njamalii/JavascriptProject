@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(156, 149, 149)!important;
+}
+
+a img {
+    border-radius: 5px;
+}
+
+nav {
+    top:0;
+    position: fixed !important;
+    z-index:1;
+    width:100%;
+}
+.modal{
+    display:block;
+}
+.closemodalbtn{
+    font-size: 25px;
+    cursor: pointer;
+}
+.closemodalbtn:hover{
+    font-weight: bold;
+}
+div.modal-body{
+    background-color: grey;
+}
+.pos{
+    padding-top:100px;
+}
+footer{
+    bottom: 0px;
+}
+@font-face {
+    font-family: url(Fonts/vazir-font-v18.0.0);
+    src: url('Fonts/vazir-font-v18.0.0/Vazir-Light.eot');
+    src: url('Fonts/vazir-font-v18.0.0/Vazir-Medium.eot#iefix') format('embedded-opentype'),
+        url('Fonts/vazir-font-v18.0.0/Vazir-Light.woff') format('woff'),
+        url('Fonts/vazir-font-v18.0.0/Vazir-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+h4 {
+    font-family: url(Fonts/vazir-font-v18.0.0);
+}
+
+img.rounded-circle {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.card-shadow{
+    box-shadow: 5px 6px 5px 6px grey;
+}
+div.card-shadow{
+    width:31%;
+}
+h2.text-center{
+    text-shadow: 1px 5px rgb(190, 185, 185);
+}
+footer{
+    width:100%;
+}
+.tp{
+    margin:auto;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    width:50%;
+}
+.tp input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

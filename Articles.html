@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessy</title>
+    <link rel="website icon" href="images/chessy.jpg">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/chessy.jpg" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="basket.html"><i class="bi bi-cart3 text-light"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignIn.html">Signin/login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shopping.html">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Articles.html">Articles</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search for ..." id="tags">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="text-center fw-bold fst-italic mb-3 posi">Articles</h3>
+        <div class="row">
+            <div id="articles">
+
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-light mt-5 container-fluid">
+        <div class="row ">
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-geo-alt icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street</p>
+                    <p>New York</p>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-telephone icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Contact</h4>
+                    <strong>Phone:</strong>
+                    <span>+1 5589 55488 55</span>
+                    <br />
+                    <strong>Email:</strong>
+                    <span>info@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <i class="bi bi-clock icon"></i>
+                &nbsp;
+                <div>
+                    <h4>Opening Hours</h4>
+                    <strong>Mon-Sat:</strong>
+                    <span>11am-23pm</span>
+                    <br />
+                    <strong>Sunday:</strong>
+                    <span>Closed</span>
+                </div>
+            </div>
+            <div class="col-lg-3 d-flex">
+                <div>
+                    <h4>Follow Us:</h4>
+                    <div class="social-links d-flex">
+                        <a href="#">
+                            <h3><i class="bi bi-telegram"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-instagram text-danger"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-whatsapp text-success"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-twitter"></i></h3>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="#">
+                            <h3><i class="bi bi-linkedin"></i></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-dark">
+            <div class="container text-center mt-2">
+                <p>&copyCopyright <strong>Chessy</strong> All rights reserved</p>
+                <p>Designed by <span class="text-danger"><b>Neda Jamali</b></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            var availableTags = [
+                "Magnus Carlson",
+                "Magnus",
+                "Alireza Firouzja",
+                "Black Piece",
+                "White Piece",
+                "Chess",
+                "Dommaraju Gukesh",
+                "Garry Kasparov",
+                "Openings"
+            ];
+            $("#tags").autocomplete({
+                source: availableTags
+            });
+        });
+        var settings = {
+            "url": "http://localhost:3000/articles",
+            "method": "GET",
+            "timeout": 0,
+        };
+
+        $.ajax(settings).done(function (response) {
+            for (item of response) {
+                $("#articles").append(`<div class="card bg-secondary text-center card-at col-4 d-inline-block mt-5 margin ">
+                    <img class="card-img-top " height="200px" src="${item.image}" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">${item.title}</h4>
+      <p class="card-text fst-italic">${item.content}</p>
+      <a href="/singleArticle.html?id=${item.id}" class="btn btn-success">Read</a>
+      <hr>
+      <p class="text-light">More than 500 viewers</p>
+    </div>
+  </div>`);
+            }
+        });
+    </script>
+</body>
+
+</html>

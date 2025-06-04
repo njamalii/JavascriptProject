@@ -1,0 +1,289 @@
+{
+  "articles": [
+    {
+      "image": "images/afir.jpg",
+      "content": "This article is about Alireza Firouzja",
+      "title": "Alireza Firouzja",
+      "information": "Alireza Firouzja is an Iranian and French chess grandmaster. Firouzja is the youngest player to have surpassed a FIDE rating of 2800, beating the previous record set by Magnus Carlsen by more than five months. A chess prodigy, Firouzja won the Iranian Chess Championship at age 12 and earned the Grandmaster title at 14. At 16, Firouzja became the second-youngest 2700-rated player.<br><br> In 2021, at 18, he won the FIDE Grand Swiss tournament and an individual gold medal at the European Team Chess Championship. In 2022, Firouzja won the Grand Chess Tour. He qualified for the Candidates Tournament in 2022 and 2024. Firouzja won the gold medal in the U12 section at the Asian Youth Chess Championships held in 2015 in Suwon.[11][12] In adult tournaments, one of Firouzja's earliest successes was in the 10th Nana Aleksandria Cup in 2015, held in Georgia. In a strong field with 15 grandmasters, Firouzja finished with 5/9, including a victory against grandmaster Vugar Rasulov and four draws against four other grandmasters. He had further successes in the Iranian chess championship semi-final, an unbeaten 7/9 (+5-0=4), which served as a qualifier to the main championship held the following year. He then took part in the strongest open tournament held that year, the Qatar Masters 2015, in which he scored 4½/9, including victories against grandmasters Pavel Tregubov and Neelotpal Das. <br><br>These results in the Iranian championship semi-finals, the Qatar Masters and the Iranian championship increased Firouzja's rating to 2475 at age 12 years and 7 months. ",
+      "id": "1"
+    },
+    {
+      "image": "images/magnus.jpg",
+      "content": "This article is about Magnus Carlsen",
+      "title": "Magnus Carlsen",
+      "information": "Magnus Carlson is Norwegian chess grandmaster. Carlsen is a five-time World Chess Champion, five-time World Rapid Chess Champion, and the reigning (shared with Ian Nepomniachtchi) eight-time World Blitz Chess Champion.<br><br> He has held the No. 1 position in the FIDE world chess rankings since 1 July 2011 and trails only Garry Kasparov in time spent as the highest-rated player in the world, while holding the record for the longest consecutive reign.His peak rating of 2882 is the highest in history. He also holds the record for the longest unbeaten streak at the elite level in classical chess at 125 games.<br><br>Carlsen became World Chess Champion in 2013 by defeating Viswanathan Anand. He retained his title against Anand the following year and won both the 2014 World Rapid Championship and World Blitz Championship, becoming the first player to hold all three titles simultaneously, a feat which he repeated in 2019 and 2022.",
+      "id": "2"
+    },
+    {
+      "image": "images/cas.jpg",
+      "content": "This article is about Garry Kasparov",
+      "title": "Garry Kasparov",
+      "information": "Garry Kasparov is  is a Russian chess grandmaster, former World Chess Champion (1985–2000), political activist and writer. His peak FIDE chess rating of 2851, achieved in 1999, was the highest recorded until being surpassed by Magnus Carlsen in 2013.<br><br> From 1984 until his retirement from regular competitive chess in 2005, Kasparov was ranked the world's #1 player for a record 255 months overall. Kasparov also holds records for the most consecutive professional tournament victories (15) and Chess Oscars (11).<br><br> Kasparov became the youngest-ever undisputed world champion in 1985 at age 22 by defeating then-champion Anatoly Karpov, a record he held until 2024, when Gukesh Dommaraju won the title at age 18.[3][4] He defended the title against Karpov three times, in 1986, 1987 and 1990. Kasparov held the official FIDE world title until 1993, when a dispute with FIDE led him to set up a rival organisation, the Professional Chess Association.[5] In 1997, he became the first world champion to lose a match to a computer under standard time controls when he was defeated by the IBM supercomputer Deep Blue in a highly publicised match. He continued to hold the Classical world title until his defeat by Vladimir Kramnik in 2000. Despite losing the PCA title, he continued winning tournaments and was the world's highest-rated player at the time of his official retirement. Kasparov coached Carlsen in 2009–10, during which time Carlsen rose to world no. 1. Kasparov stood unsuccessfully for FIDE president in 2013–2014.  ",
+      "id": "3"
+    },
+    {
+      "image": "images/gukesj.jpg",
+      "content": "This article is about Garry Kasparov",
+      "title": "Dommaraju  Gukesh",
+      "information": "Gukesh Dommaraju  is  an Indian chess grandmaster and the reigning World Chess Champion. A chess prodigy, Gukesh is the youngest undisputed world champion, the youngest player to have surpassed a FIDE rating of 2750, doing so at the age of 17, and the third-youngest to have surpassed 2700 Elo at the age of 16. He earned the title of grandmaster at the age of 12 and is the third-youngest grandmaster in chess history.<br><br> Gukesh started playing chess at the age of 7. He won the under-12 title at the World Youth Chess Championship in 2018, and multiple gold medals at the 2018 Asian Youth Chess Championship.<br><br> He became an International Master in March 2017. On 15 January 2019, at the age of 12 years, 7 months, and 17 days, he became the then second-youngest grandmaster in the history of the game, after Sergey Karjakin. He was part of the Indian team that won the silver medal at the 2022 Asian Games in the men's team competition. Gukesh won the team bronze and the individual gold medal at the 44th Chess Olympiad in 2022. In the September 2023 rating list, Gukesh became the top-rated Indian player, surpassing Viswanathan Anand's 37-year record.In the 45th Chess Olympiad in 2024, he won both team and individual gold medals. In 2024, he became the youngest winner of the Candidates Tournament and successfully challenged Ding Liren in the World Chess Championship, becoming the 18th and youngest undisputed world champion, at the age of 18 years and 195 days ",
+      "id": "4"
+    },
+    {
+      "image": "images/black.jpg",
+      "content": "This article is about black openings",
+      "title": "Black openings",
+      "information": "There's no way around it—every chess game starts with the opening. These first few moves are crucial to determining how the rest of the game will go. Because of this, learning how to play the opening well can drastically improve your results!\n<br>Openings Against 1.e4:<br><br><ul><li>Caro-Kann</li><li>Scandinavian Defense</li><li>Sicilian Defense</li><li>Accelerated Dragon Sicilian Defense</li></ul><br><br>Once you know how to play against these two moves, you can expand your repertoire to include other moves like 1.c4 and 1.Nf3.",
+      "id": "5"
+    },
+    {
+      "image": "images/white.jpg",
+      "content": "This article is about white opening",
+      "title": "White openings",
+      "information": "So you have decided to embark on the frivolous journey of learning the opening? You learn a few openings and watch well over 10 hours of opening videos. You quickly realise, there are too many openings to learn and too many things to memorise.<br><br> You go to yourself: How could I possibly learn all of this? I have a wife, kids and a full-time job! You begin searching the internet for answers. Then you come across a solution: Learn an opening system! What a great way to get out of the opening unscathed with all your pieces developed, your king safe and with good middle-game prospects! <br><br>The opening is the initial stage of a chess game. It usually consists of established theory. The other phases are the middlegame and the endgame.[1] Many opening sequences, known as openings, have standard names such as Sicilian Defense. The Oxford Companion to Chess lists 1,327 named openings and variants, and there are many others with varying degrees of common usage.",
+      "id": "6"
+    },
+    {
+      "image": "images/chesss.jpg",
+      "content": "This article is about why chess is good",
+      "title": "Why chess is good?",
+      "information": "Chess is one of the oldest games in the world dating back over 1500 years. The game of chess has evolved as it spread around the globe to the game we play today. As a result, this journey has brought people together from different cultures, ages, and backgrounds over a common bond and passion for the game.Of course, everyone likes to win, but it is just important to learn how to accept losing.<br><br> As the saying goes—sometimes you give the lesson, and sometimes you receive the lesson! Most importantly, try to learn from those losses and come back as a better player. Just as in life, we need to get back up when confronted with failure and come back stronger and wiser.<br><br> Winning with grace is an important character trait that chess can teach a person. The scholastic chess boom around the world has been on a steady rise over the last decade. More important than these children becoming great chess players or getting high ratings is that chess teaches children from an early age that their choices have consequences—both good and bad. Thinking your moves through and trying to play the best move that you can is rewarding while playing too quickly and rushing your decisions can have negative repercussions.<br><br>Chess is a board game for two players. It is an abstract strategy game which involves no hidden information and no elements of chance. It is played on a square board containing 64 squares arranged in an 8×8 grid. The players, referred to as White and Black, each control sixteen pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns; each type of piece has a different pattern of movement. An enemy piece may be captured (removed from the board) by moving one's own piece onto the square it occupies; the object of the game is to checkmate(threaten with inescapable capture) the enemy king. There are also several ways a game can end in a draw.  ",
+      "id": "7"
+    },
+    {
+      "image": "images/hs.jpg",
+      "content": "This article is about the history of chess",
+      "title": "History of chess",
+      "information": "People have been playing chess for more than 1500 years. Invented in India in the 6th century CE, its earliest known form was called chaturanga.<br><br> The pieces originally represented the military units common in warfare at that time: infantry, cavalry, elephants, chariots, a general, and a king.<br><br>People have been playing chess for more than 1500 years. Invented in India in the 6th century CE, its earliest known form was called chaturanga. The pieces originally represented the military units common in warfare at that time: infantry, cavalry, elephants, chariots, a general, and a king. The game spread from India to Persia in the 7th century and then westward to the wider Muslim world following the Islamic conquest of Persia. Islamic influence then spread the game to southern Europe, reaching western Europe by about 1000 CE. An example of an early European chess set is the Isle of Lewis chessmen.<br><br>As chess spread through the Islamic world and then Europe, its rules were modified and pieces were renamed. The modern rules of chess emerged in Italy and Spain by the dawn of the 15th century. Authors began publishing books on chess, and works by chess masters such as Luis Ramierez de Lucena, Ruy Lopez de Segura, and Gioachino Greco influenced the development of the study of chess that persists to this day.<br><br>Modern competitive play began in the second half of the 19th century, and early European tournaments featured Romantic masters like Howard Staunton, Paul Morphy, and Adolf Andersson. Jaques of London designed the classic Staunton pattern set around this time, which is still widely in use to this day. The first world chess championship was contested in 1886, with Wilhelm Steinitz emerging victorious over Johannes Zuckertort. ",
+      "id": "8"
+    },
+    {
+      "image": "images/chessy.jpg",
+      "content": "This article is about the agressive openings",
+      "title": "Aggressive openings",
+      "information": "I created a video where described top 7 aggressive chess openings that I played in my games! 3 of them are for white and 4 for black! I definitely recommend you to use some of them, for example, the ones you like or you think fit your playing style! I also want you to pay more attention to openings for black, because if you learn them, it can help you to overtake the initiative from the first moves even playing with black pieces! This opening was played by such chess legends as Bobby Fischer, Garry Kasparov, Vladimir Kramnik, Nigel Short and others. This is a good choice to avoid boring and slow Italian game. I play from time to time and also recommend to my students.<br><br>It is one of the most aggressive openings you can play and it focuses on sacrificing material for rapid development and a huge spacial advantage. This opening I recommend to beginners and kids, because at the beginners level development and initiative are more valuable than extra material.<br><br>An aggressive response to Sicilian Defense! You can meet this opening nowadays on Masters and GMs level. White sacrifices a pawn, but black has to play properly and defend his position! ",
+      "id": "9"
+    }
+  ],
+  "chesspiece": [
+    {
+      "title": "Chess Piece",
+      "model": "x1 piece",
+      "content": "This is chess pieces",
+      "info": "model is x1 piece. <br> Very good is material used. <br>",
+      "image": "images/ch1.jpg",
+      "price": "$4.99",
+      "id": "1"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x2 piece",
+      "content": "This is chess pieces",
+      "info": "model is x2 piece. <br> Very good is material used. <br>",
+      "image": "images/ch2.jpg",
+      "price": "$5.99",
+      "id": "2"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x3 piece",
+      "content": "This is chess pieces",
+      "info": "model is x3 piece. <br> Very good is material used. <br>",
+      "image": "images/ch3.jpg",
+      "price": "$10.89",
+      "id": "3"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x4 piece",
+      "content": "This is chess pieces",
+      "info": "model is x4 piece. <br> Very good is material used. <br>",
+      "image": "images/ch4.jpg",
+      "price": "$10.00",
+      "id": "4"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x5 piece",
+      "content": "This is chess pieces",
+      "info": "model is x5 piece. <br> Very good is material used. <br>",
+      "image": "images/ch5.jpg",
+      "price": "$7.00",
+      "id": "5"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x6 piece",
+      "content": "This is chess pieces",
+      "info": "model is x6 piece. <br> Very good is material used. <br>",
+      "image": "images/ch6.jpg",
+      "price": "$9.00",
+      "id": "6"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x7 piece",
+      "content": "This is chess pieces",
+      "info": "model is x7 piece. <br> Very good is material used. <br>",
+      "image": "images/ch7.jpg",
+      "price": "$11.00",
+      "id": "7"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x8 piece",
+      "content": "This is chess pieces",
+      "info": "model is x8 piece. <br> Very good is material used. <br>",
+      "image": "images/ch8.jpg",
+      "price": "$2.00",
+      "id": "8"
+    },
+    {
+      "title": "Chess Piece",
+      "model": "x9 piece",
+      "content": "This is chess pieces",
+      "info": "model is x9 piece. <br> Very good is material used. <br>",
+      "image": "images/ch9.jpg",
+      "price": "$7.90",
+      "id": "9"
+    },
+    {
+      "id": "10",
+      "title": "Chess Board",
+      "model": "x1 board",
+      "content": "This is chess board",
+      "info": "model is x1 board. <br> Very good is material used. <br>",
+      "image": "images/board1.png",
+      "price": "$7.00"
+    },
+    {
+      "id": "11",
+      "title": "Chess Board",
+      "model": "x2 board",
+      "content": "This is chess board",
+      "info": "model is x2 board. <br> Very good is material used. <br>",
+      "image": "images/board2.jpg",
+      "price": "$5.00"
+    },
+    {
+      "id": "12",
+      "title": "Chess Board",
+      "model": "x3 board",
+      "content": "This is chess board",
+      "info": "model is x3 board. <br> Very good is material used. <br>",
+      "image": "images/board3.jpg",
+      "price": "$4.50"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "name": "neda",
+      "surname": "jamali",
+      "email": "nsjamali@gmail.com",
+      "comment": "hello"
+    },
+    {
+      "id": "9889",
+      "name": "joe",
+      "surname": "doe",
+      "email": "jhon.gmail.com",
+      "comment": "hello"
+    },
+    {
+      "id": "03fc",
+      "name": "neda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "comment": "sDSds"
+    }
+  ],
+  "user": [
+    {
+      "id": "c023"
+    },
+    {
+      "id": "e888",
+      "name": "fdsa",
+      "surname": "asdva",
+      "email": "asvd@gmail.com",
+      "password": "dsv"
+    },
+    {
+      "id": "7231",
+      "name": "aerrge",
+      "surname": "dfdfa",
+      "email": "ds@gmail.com",
+      "password": "sdaas"
+    },
+    {
+      "id": "1bce",
+      "name": "neda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2be6",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "sdffd"
+    },
+    {
+      "id": "f737",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "fg"
+    },
+    {
+      "id": "5791",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "ADS"
+    },
+    {
+      "id": "d144",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "dsD"
+    },
+    {
+      "id": "4f9b",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "dsD"
+    },
+    {
+      "id": "d73b",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "dsD"
+    },
+    {
+      "id": "eec5",
+      "name": "neffffda",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "dfsa"
+    },
+    {
+      "id": "992f",
+      "name": "ali",
+      "surname": "jamali",
+      "email": "nsjamali96@gmail.com",
+      "password": "44nnnnnn"
+    },
+    {
+      "id": "1e86",
+      "name": "dfv",
+      "surname": "dfv",
+      "email": "ff@gmail.com",
+      "password": "fdffffff"
+    }
+  ]
+}
