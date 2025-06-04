@@ -34,8 +34,7 @@ This is part of Get method for Articles page:
       <a href="/singleArticle.html?id=${item.id}" class="btn btn-success">Read</a>
       <hr>
       <p class="text-light">More than 500 viewers</p>
-    </div>
-  </div>`);
+    </div></div>`);
             }
         });`
   
