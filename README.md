@@ -38,6 +38,14 @@ This is part of Get method for Articles page:
             }
         });`
   
+
+**In order to run the project:**
+Write the command in vscode terminal:
+
+` npx json-server db.json`
+
+Then open the project with live server.
+
 ## Frameworks and Programming languages
 ---
 1. Html
@@ -45,3 +53,5 @@ This is part of Get method for Articles page:
 3. Bootstrap5(Framework)
 4. Javascript
 5. ajax
+
+
