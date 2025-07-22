@@ -40,6 +40,7 @@ This is part of Get method for Articles page:
   
 
 **In order to run the project:**
+
 Write the command in vscode terminal:
 
 ` npx json-server db.json`
